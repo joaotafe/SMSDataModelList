@@ -39,7 +39,7 @@ public interface SMSDataModelInterface {
    * range "DUPLICATE" if the number being provided, newPhoneNumber, is actually
    * already in the model otherwise returns the number just replaced
    */
-  public String updatePhoneNumber(String newPhoneNumber, int i);
+  public String updatePhoneNumber(String newPhoneNumber, int i) throws SMSDataModelFullException;
 
   /**
    * Get a phone number at a particular position in the list

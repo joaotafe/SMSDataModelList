@@ -13,8 +13,8 @@ class SMSDataModelFullException extends Exception {
 
   private String phoneNumber;
 
-  public SMSDataModelFullException(String thePhoneNumber) {
-    super("SMSDataModel is full.");
+  public SMSDataModelFullException(String message, String thePhoneNumber) {
+    super(message);
     this.phoneNumber = thePhoneNumber;
   }
 

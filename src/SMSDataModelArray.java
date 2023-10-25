@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class SMSDataModelArray implements SMSDataModelInterface, Serializable {
 
   private static final long serialVersionUID = 1L;
-  private static final int DEFAULT_MAX_NUM_PHONE_NUMBERS = 20;
+  public static final int DEFAULT_MAX_NUM_PHONE_NUMBERS = 20;
   public static final String FULL = "FULL";
   public static final String DUPLICATE = "DUPLICATE";
 
